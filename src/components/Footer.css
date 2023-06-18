@@ -1,0 +1,20 @@
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin: 2rem;
+  cursor: pointer;
+}
+.pages {
+  font-weight: 500;
+  border-radius: 3px;
+  padding: 20px 20px;
+  cursor: pointer;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
