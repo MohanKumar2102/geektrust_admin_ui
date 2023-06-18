@@ -5,8 +5,6 @@ import Footer from "./Footer";
 import axios from "axios";
 import { Search } from "@mui/icons-material";
 import { TextField, InputAdornment } from "@mui/material";
-import { Button, Pagination, Stack } from "@mui/material";
-import { Delete } from "@mui/icons-material";
 
 export default function AdminUI() {
   const [timerId, setTimerId] = useState(0);
